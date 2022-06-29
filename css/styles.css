@@ -49,23 +49,19 @@ nav {
     grid-area: nav;
     padding-top: 80px;
     padding-left: 30%;
+   }
 
 
 
-}
-
-nav a:hover {
-    color: red;
-}
 
 nav ul li {
     list-style: none;
 
 }
 
-a {
+/* a {
     text-decoration: none;
-}
+} */
 
 aside {
     grid-area: comentarios;
@@ -96,7 +92,7 @@ article h3 {
 .padre3 {
     text-align: center;
     color: black;
-    border: 1px solid orange;
+    
 
 
 }
@@ -163,7 +159,6 @@ footer {
 
 
 
-
 @media (min-width:765px){
     section {
         display: flex;
@@ -190,5 +185,7 @@ nav ul  {
 }
 
 }
-  
-
+p::first-letter {
+    color: red;
+    font-size: 3rem;
+}
